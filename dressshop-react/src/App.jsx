@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import React, { useState } from "react";
 
 
-import TopBar from "./components/TopBar";
+import TopBar from "./components/Topbar";
 import Navbar from "./components/Navbar";
 import HeroSlider from "./components/HeroSlider";
 import FeaturedCategories from "./components/FeaturedCategories";
