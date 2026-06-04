@@ -1,0 +1,4 @@
+[build]
+  base = "dressshop-react"
+  command = "npm install && npm run build"
+  publish = "dist"
