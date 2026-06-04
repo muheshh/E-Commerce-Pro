@@ -1,0 +1,149 @@
+/* FOOTER */
+.footer {
+    background: #0f0f0f;
+    color: white;
+
+    padding: 60px 8%;
+    margin-top: 80px;
+}
+
+/* CONTAINER */
+.footer-container {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    gap: 50px;
+}
+
+/* COLUMN */
+.footer-column h3 {
+    font-size: 20px;
+    margin-bottom: 22px;
+
+    font-weight: 600;
+}
+
+.footer-column p {
+    color: #bdbdbd;
+
+    margin-bottom: 14px;
+
+    cursor: pointer;
+
+    transition: 0.3s ease;
+}
+
+.footer-column p:hover {
+    color: white;
+    transform: translateX(4px);
+}
+
+/* SUBSCRIBE */
+.subscribe-box {
+    display: flex;
+
+    margin-bottom: 18px;
+}
+
+.subscribe-box input {
+    flex: 1;
+
+    height: 48px;
+
+    border: none;
+    outline: none;
+
+    padding: 0 14px;
+
+    border-radius: 10px 0 0 10px;
+
+    font-size: 14px;
+}
+
+.subscribe-box button {
+    padding: 0 20px;
+
+    border: none;
+
+    background: white;
+    color: black;
+
+    border-radius: 0 10px 10px 0;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.3s ease;
+}
+
+.subscribe-box button:hover {
+    background: #d9d9d9;
+}
+
+/* TEXT */
+.footer-text {
+    line-height: 1.7;
+    margin-bottom: 24px;
+}
+
+/* SOCIAL */
+.social-icons {
+    display: flex;
+    gap: 18px;
+
+    margin-bottom: 24px;
+}
+
+.social-icons span {
+    cursor: pointer;
+
+    transition: 0.3s ease;
+}
+
+.social-icons span:hover {
+    color: #8e8e8e;
+}
+
+/* APP BUTTONS */
+.app-buttons {
+    display: flex;
+    flex-direction: column;
+
+    gap: 14px;
+}
+
+.app-buttons button {
+    height: 48px;
+
+    border: 1px solid #2c2c2c;
+
+    background: transparent;
+
+    color: white;
+
+    border-radius: 12px;
+
+    cursor: pointer;
+
+    transition: 0.3s ease;
+}
+
+.app-buttons button:hover {
+    background: white;
+    color: black;
+}
+
+/* RESPONSIVE */
+@media (max-width: 992px) {
+    .footer-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .footer-container {
+        grid-template-columns: 1fr;
+    }
+}

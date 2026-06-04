@@ -1,0 +1,350 @@
+/* HERO */
+
+.hero {
+    width: 100%;
+    height: 60vh;
+
+    min-height: 300px;
+    max-height: 650px;
+
+    position: relative;
+    overflow: hidden;
+}
+
+/* SLIDE */
+
+.slide {
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+
+    background-size: cover;
+    background-position: center;
+
+    opacity: 0;
+
+    transform: scale(1.15);
+
+    transition:
+        transform 1.2s ease,
+        opacity 1.2s ease;
+
+    will-change: transform, opacity;
+}
+
+/* ACTIVE */
+
+.slide.active {
+
+    opacity: 1;
+
+    transform:
+        translateX(0)
+        scale(1);
+
+    z-index: 2;
+}
+
+/* PREVIOUS */
+
+.slide.prev {
+
+    opacity: 0;
+
+    transform:
+        translateX(-100%)
+        scale(1.1);
+
+    z-index: 1;
+}
+
+/* NEXT */
+
+.slide.next {
+
+    opacity: 0;
+
+    transform:
+        translateX(100%)
+        scale(1.1);
+
+    z-index: 1;
+}
+
+/* OVERLAY */
+
+.overlay {
+    position: absolute;
+
+    left: 0;
+    top: 0;
+
+    width: 50%;
+    height: 100%;
+
+    background:
+        linear-gradient(
+            to right,
+            rgba(0, 0, 0, 0.75),
+            transparent
+        );
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding-left: 80px;
+
+    color: white;
+
+    z-index: 3;
+}
+
+/* TITLE */
+
+.overlay h1 {
+
+    font-size: 60px;
+    font-weight: 700;
+
+    margin-bottom: 18px;
+
+    opacity: 0;
+
+    transform: translateY(30px);
+
+    animation:
+        textFade 1s ease forwards;
+
+    animation-delay: 0.4s;
+}
+
+/* SUBTITLE */
+
+.overlay p {
+
+    font-size: 18px;
+
+    margin-bottom: 25px;
+
+    opacity: 0;
+
+    transform: translateY(30px);
+
+    animation:
+        textFade 1s ease forwards;
+
+    animation-delay: 0.8s;
+}
+
+/* BUTTON */
+
+.overlay button {
+
+    width: 170px;
+
+    padding: 13px;
+
+    border: none;
+    border-radius: 30px;
+
+    background: white;
+
+    font-size: 15px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    opacity: 0;
+
+    transform: translateY(30px);
+
+    animation:
+        textFade 1s ease forwards;
+
+    animation-delay: 1.2s;
+
+    transition: 0.3s;
+}
+
+.overlay button:hover {
+
+    background: black;
+    color: white;
+}
+
+/* TEXT ANIMATION */
+
+@keyframes textFade {
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+}
+
+/* NAV BUTTONS */
+
+.prev-btn,
+.next-btn {
+
+    position: absolute;
+
+    top: 50%;
+
+    transform: translateY(-50%);
+
+    width: 45px;
+    height: 45px;
+
+    border: none;
+    border-radius: 50%;
+
+    background:
+        rgba(255, 255, 255, 0.2);
+
+    backdrop-filter: blur(5px);
+
+    color: white;
+
+    font-size: 24px;
+
+    cursor: pointer;
+
+    z-index: 20;
+
+    transition: 0.3s;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+
+    background: white;
+    color: black;
+}
+
+/* LEFT */
+
+.prev-btn {
+    left: 20px;
+}
+
+/* RIGHT */
+
+.next-btn {
+    right: 20px;
+}
+
+/* BOTTOM BARS */
+
+.bars {
+
+    position: absolute;
+
+    bottom: 25px;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    display: flex;
+
+    gap: 12px;
+
+    z-index: 20;
+}
+
+/* SINGLE BAR */
+
+.bar {
+
+    width: 55px;
+    height: 4px;
+
+    background:
+        rgba(255, 255, 255, 0.3);
+
+    border-radius: 10px;
+
+    overflow: hidden;
+
+    cursor: pointer;
+
+    position: relative;
+}
+
+/* ACTIVE BAR */
+
+.bar.active::before {
+
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+    top: 0;
+
+    width: 0%;
+    height: 100%;
+
+    background: white;
+
+    animation:
+        loading 5s linear forwards;
+}
+
+/* LOADING */
+
+@keyframes loading {
+
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 100%;
+    }
+
+}
+
+/* MOBILE */
+
+@media(max-width: 768px) {
+
+    .hero {
+        height: 45vh;
+    }
+
+    .overlay {
+
+        width: 100%;
+
+        padding-left: 30px;
+    }
+
+    .overlay h1 {
+        font-size: 34px;
+    }
+
+    .overlay p {
+        font-size: 14px;
+    }
+
+    .overlay button {
+
+        width: 140px;
+
+        padding: 10px;
+    }
+
+    .prev-btn,
+    .next-btn {
+
+        width: 38px;
+        height: 38px;
+
+        font-size: 20px;
+    }
+
+}

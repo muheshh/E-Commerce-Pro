@@ -1,0 +1,36 @@
+.topbar {
+  width: 100%;
+  background: #0b1d3a;
+  color: white;
+  overflow: hidden;
+}
+
+/* Content */
+.topbar-content {
+  display: flex;
+  align-items: center;
+  gap: 100px;              /* 👉 more space between items */
+  white-space: nowrap;
+  padding: 10px 0;
+  font-size: 15px;
+  font-weight: 500;
+
+  animation: scrollText 25s linear infinite;  /* 👉 slower animation */
+}
+
+/* Text clarity fix */
+.topbar-content p {
+  margin: 0;
+  letter-spacing: 0.5px;
+  -webkit-font-smoothing: antialiased; /* 👉 reduce blur */
+}
+
+/* Smooth animation */
+@keyframes scrollText {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
