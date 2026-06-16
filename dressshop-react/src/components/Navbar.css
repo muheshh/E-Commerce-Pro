@@ -1,4 +1,4 @@
-/* Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +6,6 @@
     font-family: sans-serif;
 }
 
-/* Navbar */
 .navbar {
     width: 100%;
     position: sticky;
@@ -17,7 +16,6 @@
     padding: 6px 0;
 }
 
-/* Container */
 .nav-container {
     display: flex;
     justify-content: space-between;
@@ -25,7 +23,6 @@
     padding: 15px 40px;
 }
 
-/* Logo */
 .logo {
     font-size: 22px;
     font-weight: bold;
@@ -33,7 +30,6 @@
     cursor: pointer;
 }
 
-/* Nav Links */
 .nav-links {
     display: flex;
     list-style: none;
@@ -57,14 +53,12 @@
     margin-left: 40px;
 }
 
-/* Mobile Menu Button */
 .menu-toggle {
     display: none;
     font-size: 24px;
     cursor: pointer;
 }
 
-/* 🔽 Mobile Responsive */
 @media (max-width: 768px) {
 
     .nav-links {
@@ -91,3 +85,225 @@
         display: none;
     }
 }
+
+.nav-icons {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 28px;
+}
+
+.nav-icons i {
+
+    font-size: 22px;
+
+    color: #111;
+
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+
+    position: relative;
+}
+
+.nav-icons i:hover {
+
+    color: #c8a96b;
+
+    transform: translateY(-2px) scale(1.08);
+}
+
+.nav-icons i::after {
+
+    content: "";
+
+    position: absolute;
+
+    bottom: -8px;
+
+    left: 50%;
+
+    width: 0;
+
+    height: 2px;
+
+    background: #c8a96b;
+
+    transition: all 0.3s ease;
+
+    transform: translateX(-50%);
+}
+
+.nav-icons i:hover::after {
+
+    width: 100%;
+}
+
+
+/* ===========================
+   SEARCH OVERLAY
+=========================== */
+
+.search-overlay {
+    position: fixed;
+    inset: 0;
+
+    background: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(8px);
+
+    z-index: 999;
+}
+
+/* ===========================
+   SEARCH MODAL
+=========================== */
+
+.search-modal {
+    position: fixed;
+
+    top: 90px;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    width: 500px;
+    max-width: 90%;
+
+    background: #fff;
+
+    border-radius: 18px;
+
+    overflow: hidden;
+
+    box-shadow:
+        0 20px 50px rgba(0, 0, 0, 0.18);
+
+    z-index: 1000;
+
+    animation: searchOpen 0.25s ease;
+}
+
+@keyframes searchOpen {
+    from {
+        opacity: 0;
+        transform: translateX(-50%) translateY(-15px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(-50%) translateY(0);
+    }
+}
+
+/* ===========================
+   SEARCH HEADER
+=========================== */
+
+.search-header {
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    padding: 18px 20px;
+}
+
+.search-icon {
+    font-size: 18px;
+
+    color: #666;
+}
+
+.search-header input {
+    flex: 1;
+
+    border: none;
+
+    outline: none;
+
+    background: transparent;
+
+    font-size: 16px;
+
+    font-weight: 500;
+}
+
+/* ===========================
+   CLOSE BUTTON
+=========================== */
+
+.close-btn {
+    border: none;
+
+    background: none;
+
+    font-size: 20px;
+
+    cursor: pointer;
+
+    color: #555;
+
+    transition: 0.3s;
+}
+
+.close-btn:hover {
+    transform: rotate(90deg);
+
+    color: black;
+}
+
+/* ===========================
+   SEARCH RESULTS
+=========================== */
+
+.search-results {
+    border-top: 1px solid #eee;
+
+    max-height: 300px;
+
+    overflow-y: auto;
+}
+
+.search-item {
+    padding: 15px 20px;
+
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+
+.search-item:hover {
+    background: #f8f8f8;
+
+    padding-left: 30px;
+}
+
+/* ===========================
+   NAV ICONS
+=========================== */
+
+.nav-icons {
+    display: flex;
+
+    gap: 20px;
+
+    align-items: center;
+}
+
+.nav-icons i {
+    font-size: 20px;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+.nav-icons i:hover {
+    transform: translateY(-2px);
+
+    color: #000;
+}
+

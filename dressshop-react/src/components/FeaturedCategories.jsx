@@ -14,52 +14,53 @@ const categories = [
     {
         name: "NEW ARRIVALS",
         image: cat1,
-        path: "/new-arrivals",
+        path: "/category/new-arrivals",
         bg: "#b4aea8",
     },
     {
         name: "BEST SELLERS",
         image: cat2,
-        path: "/best-sellers",
+        path: "/category/best-sellers",
         bg: "#c88d2d",
     },
     {
         name: "ONLINE EXCLUSIVE",
         image: cat3,
-        path: "/online-exclusive",
+        path: "/category/online-exclusive",
         bg: "#cc5c84",
     },
     {
-        name: "beachwear",
+        name: "BEACHWEAR",
         image: cat4,
-        path: "/beachwear",
+        path: "/category/beachwear",
         bg: "#d45a73",
     },
     {
         name: "CO-ORDS",
         image: cat5,
-        path: "/co-ords",
+        path: "/category/co-ords",
         bg: "#8c0023",
     },
     {
         name: "DRESSES",
         image: cat6,
-        path: "/dresses",
+        path: "/category/dresses",
         bg: "#2b2d3a",
     },
     {
         name: "MATERNITY",
         image: cat7,
-        path: "/maternity",
+        path: "/category/maternity",
         bg: "#b0227d",
     },
     {
-        name: "Classic ONes",
+        name: "CLASSIC ONES",
         image: cat8,
-        path: "/kurta-set",
+        path: "/category/clasicones.jsx",
         bg: "#d6655e",
     },
 ];
+
 
 const FeaturedCategories = () => {
     return (

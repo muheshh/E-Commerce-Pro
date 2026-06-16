@@ -5,35 +5,35 @@ import "./HeroSlider.css";
 const slides = [
 
     {
-        image: "/images/slide1.jpg.png",
+        image: "/images/sld.1.webp",
         title: "NEW SEASON LINEN SETS",
         subtitle: "FROM WORK TO WEEKENDS",
         button: "SHOP NOW",
     },
 
     {
-        image: "/images/slide2.jpg.png",
+        image: "/images/sld.2.webp",
         title: "ELEGANT ETHNIC WEAR",
         subtitle: "STYLE WITH COMFORT",
         button: "SHOP NOW",
     },
 
     {
-        image: "/images/slide3.jpg.png",
+        image: "/images/sld.3.webp",
         title: "TRENDING COLLECTION",
         subtitle: "FASHION THAT SPEAKS",
         button: "EXPLORE",
     },
 
     {
-        image: "/images/slide4.jpg.png",
+        image: "/images/sld.4.webp",
         title: "SUMMER SPECIALS",
         subtitle: "LIGHT & BREEZY",
         button: "BUY NOW",
     },
 
     {
-        image: "/images/slide5.jpg.png",
+        image: "/images/sld.5.webp",
         title: "EXCLUSIVE OFFERS",
         subtitle: "UP TO 50% OFF",
         button: "GRAB NOW",
@@ -102,7 +102,7 @@ const HeroSlider = () => {
 
         return () => clearInterval(timer);
 
-    });
+    },[current]);
 
     return (
 

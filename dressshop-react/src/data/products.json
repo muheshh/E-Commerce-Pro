@@ -1,0 +1,421 @@
+[
+    {
+        "id": 1,
+        "category": "best-sellers",
+        "image1": "/images/bs1.jpg",
+        "image2": "/images/bs1.2.jpg",
+        "title": "Premium Beach Shirt",
+        "fabric": "Cotton Linen",
+        "length": "Regular Fit",
+        "package": "1 Shirt",
+        "price": 1499,
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ]
+    },
+    {
+        "id": 2,
+        "category": "best-sellers",
+        "image1": "/images/bs2.jpg",
+        "image2": "/images/bs2.2.jpg",
+        "title": "Tropical Resort Shirt",
+        "fabric": "Rayon Blend",
+        "length": "Relaxed Fit",
+        "package": "1 Shirt",
+        "price": 1599,
+        "sizes": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ]
+    },
+    {
+        "id": 3,
+        "category": "best-sellers",
+        "image1": "/images/bs3.jpg",
+        "image2": "/images/bs3.2.jpg",
+        "title": "Luxury Linen Shirt",
+        "fabric": "Premium Linen",
+        "length": "Regular Fit",
+        "package": "1 Shirt",
+        "price": 2299,
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
+    },
+    {
+        "id": 4,
+        "category": "best-sellers",
+        "image1": "/images/bs4.jpg",
+        "image2": "/images/bs4.2.jpg",
+        "title": "Palm Print Shirt",
+        "fabric": "Cotton Blend",
+        "length": "Relaxed Fit",
+        "package": "1 Shirt",
+        "price": 1899,
+        "sizes": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ]
+    },
+    {
+        "id": 5,
+        "category": "best-sellers",
+        "image1": "/images/bs5.jpg",
+        "image2": "/images/bs5.2.jpg",
+        "title": "Island Escape Shirt",
+        "fabric": "Rayon",
+        "length": "Oversized Fit",
+        "package": "1 Shirt",
+        "price": 2099,
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ]
+    },
+    {
+        "id": 6,
+        "category": "best-sellers",
+        "image1": "/images/bs6.jpg",
+        "image2": "/images/bs6.2.jpg",
+        "title": "Coastal Breeze Shirt",
+        "fabric": "Pure Cotton",
+        "length": "Regular Fit",
+        "package": "1 Shirt",
+        "price": 1699,
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
+    },
+    {
+        "id": 7,
+        "category": "best-sellers",
+        "image1": "/images/bs7.jpg",
+        "image2": "/images/bs7.2.jpg",
+        "title": "Ocean Wave Shirt",
+        "fabric": "Cotton Linen",
+        "length": "Slim Fit",
+        "package": "1 Shirt",
+        "price": 1799,
+        "sizes": [
+            "M",
+            "L",
+            "XL"
+        ]
+    },
+    {
+        "id": 8,
+        "category": "best-sellers",
+        "image1": "/images/bs8.jpg",
+        "image2": "/images/bs8.2.jpg",
+        "title": "Sunset Linen Shirt",
+        "fabric": "Luxury Linen",
+        "length": "Regular Fit",
+        "package": "1 Shirt",
+        "price": 2399,
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ]
+    },
+    {
+        "id": 9,
+        "category": "best-sellers",
+        "image1": "/images/bs9.jpg",
+        "image2": "/images/bs9.2.jpg",
+        "title": "Vacation Essential Shirt",
+        "fabric": "Premium Rayon",
+        "length": "Oversized Fit",
+        "package": "1 Shirt",
+        "price": 2499,
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
+    },
+    {
+        "id": 10,
+        "category": "best-sellers",
+        "image1": "/images/bs10.jpg",
+        "image2": "/images/bs10.2.jpg",
+        "title": "Lagoon Printed Shirt",
+        "fabric": "Rayon Blend",
+        "length": "Regular Fit",
+        "package": "1 Shirt",
+        "price": 1899,
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ]
+    },
+    {
+        "id": 11,
+        "category": "best-sellers",
+        "image1": "/images/bs11.jpg",
+        "image2": "/images/bs11.2.jpg",
+        "title": "Beach Club Shirt",
+        "fabric": "Pure Cotton",
+        "length": "Relaxed Fit",
+        "package": "1 Shirt",
+        "price": 1999,
+        "sizes": [
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ]
+    },
+    {
+        "id": 12,
+        "category": "best-sellers",
+        "image1": "/images/bs12.jpg",
+        "image2": "/images/bs12.2.jpg",
+        "title": "Holiday Resort Shirt",
+        "fabric": "Linen Cotton",
+        "length": "Regular Fit",
+        "package": "1 Shirt",
+        "price": 2199,
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL"
+        ]
+    },
+    {
+        "id": 13,
+        "category": "best-sellers",
+        "image1": "/images/bs13.jpg",
+        "image2": "/images/bs13.2.jpg",
+        "title": "Premium Vacation Shirt",
+        "fabric": "Luxury Linen",
+        "length": "Oversized Fit",
+        "package": "1 Shirt",
+        "price": 2599,
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ]
+    },
+    {
+        "id": 14,
+        "category": "best-sellers",
+        "image1": "/images/bs14.jpg",
+        "image2": "/images/bs14.2.jpg",
+        "title": "Summer Signature Shirt",
+        "fabric": "Premium Cotton",
+        "length": "Regular Fit",
+        "package": "1 Shirt",
+        "price": 1999,
+        "sizes": [
+            "S",
+            "M",
+            "L",
+            "XL",
+            "XXL"
+        ]
+    },
+    [
+        {
+            "id": 101,
+            "category": "new-arrivals",
+            "image1": "",
+            "image2": "",
+            "title": "Summer Breeze Shirt",
+            "fabric": "Premium Cotton",
+            "length": "Regular Fit",
+            "package": "1 Shirt",
+            "price": 1599,
+            "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+            ]
+        },
+        {
+            "id": 102,
+            "category": "new-arrivals",
+            "image1": "",
+            "image2": "",
+            "title": "Tropical Vibe Shirt",
+            "fabric": "Rayon Blend",
+            "length": "Relaxed Fit",
+            "package": "1 Shirt",
+            "price": 1799,
+            "sizes": [
+                "M",
+                "L",
+                "XL",
+                "XXL"
+            ]
+        },
+        {
+            "id": 103,
+            "category": "new-arrivals",
+            "image1": "",
+            "image2": "",
+            "title": "Urban Linen Shirt",
+            "fabric": "Pure Linen",
+            "length": "Regular Fit",
+            "package": "1 Shirt",
+            "price": 2199,
+            "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ]
+        },
+        {
+            "id": 104,
+            "category": "new-arrivals",
+            "image1": "",
+            "image2": "",
+            "title": "Island Print Shirt",
+            "fabric": "Cotton Blend",
+            "length": "Relaxed Fit",
+            "package": "1 Shirt",
+            "price": 1899,
+            "sizes": [
+                "M",
+                "L",
+                "XL",
+                "XXL"
+            ]
+        },
+        {
+            "id": 105,
+            "category": "new-arrivals",
+            "image1": "",
+            "image2": "",
+            "title": "Coastal Wave Shirt",
+            "fabric": "Premium Rayon",
+            "length": "Oversized Fit",
+            "package": "1 Shirt",
+            "price": 2099,
+            "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+            ]
+        },
+        {
+            "id": 106,
+            "category": "new-arrivals",
+            "image1": "",
+            "image2": "",
+            "title": "Lagoon Resort Shirt",
+            "fabric": "Cotton Linen",
+            "length": "Regular Fit",
+            "package": "1 Shirt",
+            "price": 1699,
+            "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ]
+        },
+        {
+            "id": 107,
+            "category": "new-arrivals",
+            "image1": "",
+            "image2": "",
+            "title": "Palm Paradise Shirt",
+            "fabric": "Luxury Linen",
+            "length": "Relaxed Fit",
+            "package": "1 Shirt",
+            "price": 2399,
+            "sizes": [
+                "M",
+                "L",
+                "XL",
+                "XXL"
+            ]
+        },
+        {
+            "id": 108,
+            "category": "new-arrivals",
+            "image1": "",
+            "image2": "",
+            "title": "Ocean Drift Shirt",
+            "fabric": "Pure Cotton",
+            "length": "Slim Fit",
+            "package": "1 Shirt",
+            "price": 1499,
+            "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL"
+            ]
+        },
+        {
+            "id": 109,
+            "category": "new-arrivals",
+            "image1": "",
+            "image2": "",
+            "title": "Holiday Escape Shirt",
+            "fabric": "Premium Linen",
+            "length": "Oversized Fit",
+            "package": "1 Shirt",
+            "price": 2499,
+            "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+            ]
+        },
+        {
+            "id": 110,
+            "category": "new-arrivals",
+            "image1": "",
+            "image2": "",
+            "title": "Signature Summer Shirt",
+            "fabric": "Cotton Rayon",
+            "length": "Regular Fit",
+            "package": "1 Shirt",
+            "price": 1999,
+            "sizes": [
+                "S",
+                "M",
+                "L",
+                "XL",
+                "XXL"
+            ]
+        }
+    ]
+]
