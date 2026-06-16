@@ -13,7 +13,7 @@ import CategoryPage from "./pages/CategoryPage";
 import Newarrival from "./navbar/newarrival";
 import Pants from "./navbar/pants";
 import Shirts from "./navbar/Shirts";
-import Tshirt from "./navbar/Tshirt";
+import Tshirt from "./navbar/Tshirts";
 import Sale from "./navbar/sale";
 import Useraccount from "./navbar/Useraccount";
 import Cart from "./navbar/Cart"
