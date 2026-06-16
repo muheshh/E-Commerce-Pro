@@ -6,7 +6,7 @@ import Navbar from "./components/Navbar";
 import HeroSlider from "./components/HeroSlider";
 import FeaturedCategories from "./components/FeaturedCategories";
 import CategoryScroll from "./components/CategoryScroll";
-import CategoryImages from "./components/Categoryphoto";
+import CategoryImages from "./components/CategoryImages";
 import CollectionSection from "./components/CollectionSection";
 import Footer from "./components/Footer";
 import CategoryPage from "./pages/CategoryPage";
