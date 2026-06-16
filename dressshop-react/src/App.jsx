@@ -1,7 +1,5 @@
 import { Routes, Route } from "react-router-dom";
 import React, { useState } from "react";
-
-
 import DiscountPopup from "./components/DiscountPopup";
 import TopBar from "./components/TopBar";
 import Navbar from "./components/Navbar";
