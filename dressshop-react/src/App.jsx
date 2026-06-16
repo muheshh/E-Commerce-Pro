@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import React, { useState } from "react";
-import DiscountPopup from "./components/DiscountPopup";
-import TopBar from "./components/TopBar";
+import Discountpopup from "./components/DiscountPopup";
+import Topbar from "./components/TopBar";
 import Navbar from "./components/Navbar";
 import HeroSlider from "./components/HeroSlider";
 import FeaturedCategories from "./components/FeaturedCategories";
@@ -21,8 +21,8 @@ import Searchbar from "./navbar/Searchbar";
 
 function HomePage() {
     return (
-        <>  <DiscountPopup />
-            <TopBar />
+        <>  <Discountpopup />
+            <Topbar />
             <Navbar />
             <HeroSlider />
             <FeaturedCategories />
