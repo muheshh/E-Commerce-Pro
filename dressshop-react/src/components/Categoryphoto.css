@@ -28,69 +28,52 @@
   box-shadow: 0 12px 30px rgba(0,0,0,0.15);
 }
 
-/* 🔥 MAIN GRID FOR 4 IMAGES */
 .image-grid {
   display: grid;
 
-  /* 4 columns */
+
   grid-template-columns: repeat(4, 1fr);
 
-  /* gap between images */
+
   gap: 22px;
 
   margin-top: 20px;
 }
 
-
-/* 🔥 EACH CARD */
 .card {
   background: #fff;
 
-  /* rounded corners */
   border-radius: 16px;
 
-  /* hide overflow when zoom */
   overflow: hidden;
 
-  /* smooth hover animation */
   transition: 0.3s ease;
 }
 
-
-/* 🔥 IMAGE */
 .card img {
   width: 100%;
 
-  /* fixed image height */
   height: 340px;
 
-  /* image fit properly */
   object-fit: cover;
 
-  /* face visible */
   object-position: top center;
 
   border-radius: 16px;
 
   display: block;
 
-  /* smooth image zoom */
   transition: transform 0.3s ease;
 }
 
-
-/* 🔥 IMAGE HOVER EFFECT */
 .card:hover img {
   transform: scale(1.04);
 }
 
-
-/* 🔥 CARD MOVE UP */
 .card:hover {
   transform: translateY(-4px);
 }
 
-/* 🔥 SIZE CONTAINER */
 .sizes {
   display: flex;
   justify-content: center;
@@ -99,8 +82,6 @@
   padding: 16px 0;
 }
 
-
-/* 🔥 MODERN SIZE BUTTON */
 .sizes span {
   min-width: 42px;
   height: 42px;
@@ -126,12 +107,9 @@
 
   transition: all 0.3s ease;
 
-  /* soft premium shadow */
   box-shadow: 0 2px 8px rgba(0,0,0,0.06);
 }
 
-
-/* 🔥 HOVER EFFECT */
 .sizes span:hover {
   background: black;
 
@@ -142,8 +120,6 @@
   box-shadow: 0 8px 18px rgba(0,0,0,0.18);
 }
 
-
-/* 🔥 CLICK EFFECT */
 .sizes span:active {
   transform: scale(0.95);
 }

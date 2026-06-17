@@ -15,8 +15,6 @@
     color: #111;
 }
 
-/* TOP ROW */
-
 .top-row {
     display: flex;
     justify-content: space-between;
@@ -52,8 +50,6 @@
     transition: all 0.3s ease;
 }
 
-/* Shine Effect */
-
 .filter-btn::before {
 
     content: "";
@@ -75,16 +71,12 @@
     animation: shine 2.5s linear infinite;
 }
 
-/* Hover Effect */
-
 .filter-btn:hover {
 
     transform: translateY(-2px);
 
     box-shadow: 0 8px 20px rgba(255, 255, 255, 0.15);
 }
-
-/* Animation */
 
 @keyframes shine {
 
@@ -126,8 +118,6 @@
     font-family: "Montserrat", sans-serif;
 }
 
-/* Hover */
-
 .sort-select:hover {
 
     background: #111;
@@ -141,14 +131,10 @@
     box-shadow: 0 10px 20px rgba(0,0,0,0.12);
 }
 
-/* Click */
-
 .sort-select:active {
 
     transform: scale(0.98);
 }
-
-/* SIZE BUTTONS */
 
 .size-row {
     display: flex;
@@ -181,8 +167,6 @@
     background: #111;
     color: white;
 }
-
-/* BOTTOM ROW */
 
 .bottom-row {
 
@@ -472,8 +456,6 @@
 
     line-height: 1.6;
 }
-
-/* css for footer */
 
 .footer {
     background: #111;
